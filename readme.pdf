@@ -1,0 +1,15 @@
+James Dawson (5537908155)
+Professor Nazarian
+EE 355
+13 April 2020
+
+Email: jjdawson@usc.edu
+
+Program Summary:
+	In this Lab, 3 programs were used.
+	1) The first program used GDB to debug a file. GDB was used to determine that the value of n was not incrementing when it was supposed too and that the *n should be moved to before calling the recursive function.
+	2) The second function used ASan to debug a file. ASan was used to determine that in the partition function the pivot variable was being assigned the wrong value. Upon inspecting the value with GDB, it was determined that the value high was 6 instead of 5 so the error was corrected.
+
+Instructions:
+
+Notes:
